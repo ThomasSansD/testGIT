@@ -29,6 +29,7 @@ public class Application extends Frame implements WindowListener {
 		this.addWindowListener(this);
 		this.pack();
 		this.setVisible(true);
+		this.setLocationRelativeTo(null);
 	}
 
 	@Override
