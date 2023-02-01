@@ -7,7 +7,7 @@ public class Modèle extends Observable {
 	int compte;
 	
 	public Modèle() {
-		this.compte = 0;
+		this.compte = 100;
 	}
 
 	public void incrémente() {

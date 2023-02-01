@@ -25,7 +25,7 @@ public class Application extends Frame implements WindowListener {
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
 
-		this.setTitle("Tuto 1");
+		this.setTitle("What up");
 
 		this.add(vue);
 		this.addWindowListener(this);
@@ -36,7 +36,7 @@ public class Application extends Frame implements WindowListener {
 
 	@Override
 	public void windowOpened(WindowEvent e) {
-		// TODO Auto-generated method stub
+		System.out.println("WHAT UP");
 		
 	}
 
