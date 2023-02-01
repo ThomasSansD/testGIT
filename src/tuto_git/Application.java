@@ -4,6 +4,12 @@ import java.awt.Frame;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
+
+/**
+ * C'est un commentaire
+ * @author temile
+ *
+ */
 public class Application extends Frame implements WindowListener {
 
 	public static void main(String[] args) {
