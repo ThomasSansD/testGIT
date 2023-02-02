@@ -3,17 +3,17 @@ package tuto_git;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ContrÃ´leur implements ActionListener {
+public class Contrôleur implements ActionListener {
 
-	ModÃ¨le refModl;
+	Modèle refModl;
 	
-	public ContrÃ´leur(ModÃ¨le m) {
+	public Contrôleur(Modèle m) {
 		this.refModl = m;
 	}
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		refModl.incrÃ©mente();
+		refModl.incrémente();
 	}
 
 	

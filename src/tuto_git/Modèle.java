@@ -2,15 +2,15 @@ package tuto_git;
 
 import java.util.Observable;
 
-public class ModÃ¨le extends Observable {
+public class Modèle extends Observable {
 
 	int compte;
 	
-	public ModÃ¨le() {
+	public Modèle() {
 		this.compte = 100;
 	}
 
-	public void incrÃ©mente() {
+	public void incrémente() {
 		this.compte += 1;
 		this.setChanged();
 		this.notifyObservers(String.valueOf(this.compte));

@@ -19,8 +19,8 @@ public class Application extends Frame implements WindowListener {
 	public Application() {
 		super();
 		
-		ModÃ¨le modl = new ModÃ¨le();
-		ContrÃ´leur ctrl = new ContrÃ´leur(modl); 
+		Modèle modl = new Modèle();
+		Contrôleur ctrl = new Contrôleur(modl); 
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
